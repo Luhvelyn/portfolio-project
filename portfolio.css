@@ -15,17 +15,21 @@ font-weight: bold;
 }
 h1 {
     font-weight: 96px;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 64px;
 }
 
 p {
-    font-family:"poppins", sans-serif;
     font-weight: normal;
-
+    font-size: 16px;
+    line-height: 30px;
 }
 .hero-me {
+    padding: 80px 20px;
     background: #F9F7FE;
-    text-align: center;
-    padding: 160px 0;
+        text-align: center;
 }
 .hero-me p {
     font-size: 36px;
@@ -46,4 +50,27 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
+}
+.yogurt-description {
+}
+@media (max-width: 960px) {
+    .yogurt-description {
+        padding: 0;
+        text-align: center;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    .hero-me {
+        background: #F9F7FE;
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+}
+img {
+    max-width: 20px;
 }
