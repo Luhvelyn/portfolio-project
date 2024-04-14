@@ -1,11 +1,49 @@
-h1 {
+root {
+--branding-color: #6c63ff;
+--secondary-color: #f9f7fe;
+--heading-font-family: "playfair display", serif;
+--defauly-font-family: "poppins", sans-serif;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifvar(--defauly-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: "playfair display", serif;
 font-weight: bold;
 }
+h1 {
+    font-weight: 96px;
+}
 
 p {
-    font-family:"poppinsa", sans-serif;
+    font-family:"poppins", sans-serif;
     font-weight: normal;
 
+}
+.hero-me {
+    background: #F9F7FE;
+    text-align: center;
+    padding: 160px 0;
+}
+.hero-me p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+.hero-me h2 {
+    font-family:"poppins", sans-serif ;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+}
+.btn-branding {
+    background: #6c63ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
 }
