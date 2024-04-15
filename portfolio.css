@@ -2,7 +2,7 @@ root {
 --branding-color: #6c63ff;
 --secondary-color: #f9f7fe;
 --heading-font-family: "playfair display", serif;
---defauly-font-family: "poppins", sans-serif;
+--default-font-family: "poppins", sans-serif;
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifvar(--defauly-font-family);
@@ -29,7 +29,7 @@ p {
 .hero-me {
     padding: 80px 20px;
     background: #F9F7FE;
-        text-align: center;
+           text-align: center;
 }
 .hero-me p {
     font-size: 36px;
@@ -69,8 +69,21 @@ p {
         text-align: center;
         padding: 80px 20px;
     }
-
+    .about-section {
+        text-align: center;
+    }
 }
 img {
-    max-width: 20px;
+    max-width: 50%;
+}
+.about-section {
+  font-size: 64px;
+  line-height:80px ;  
+}
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+.about-section-content {    
+margin: 30px;
 }
