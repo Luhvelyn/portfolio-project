@@ -51,7 +51,33 @@ p {
     line-height: 27px;
     padding: 12px 20px;
 }
-.yogurt-description {
+nav {
+    padding: 20px 0;
+}
+.nav-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    color:#272142 ;
+}
+nav a:hover {
+    color: rgb(133, 82, 133);
+    transition: all 150ms ease-in-out;
+}
+nav li.active a {
+color: blueviolet;
 }
 @media (max-width: 960px) {
     .yogurt-description {
@@ -74,11 +100,11 @@ p {
     }
 }
 img {
-    max-width: 50%;
+    max-height: 500px;
 }
 .content-container {
   font-size: 64px;
-  line-height:80px ;  
+  line-height:80px;  
 }
 .content h2 {
     font-size: 18px;
